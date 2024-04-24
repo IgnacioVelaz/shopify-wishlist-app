@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "init": "node index.js",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "vercel-build": "echo vercel"
   },
   "type": "module",
   "dependencies": {

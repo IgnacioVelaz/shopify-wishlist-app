@@ -27,6 +27,7 @@ router.getAsync('/:id?', async (req, res, next) => {
   const env = getEnvironmentVariables();
 
   const config = getShopifyConfig(env);
+  console.log(config)
 
   const shopify = new Shopify(config);
 
