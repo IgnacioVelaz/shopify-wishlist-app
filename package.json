@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Shopify Wishlist App that can be used seamlessly with the [Shopify Wishlist](https://github.com/dlerm/shopify-wishlist) theme files.",
   "engines": {
-    "node": "12.x"
+    "node": "20.x"
   },
   "main": "index.js",
   "scripts": {
